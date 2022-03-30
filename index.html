@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		<script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+		<style>
+			* {
+				font-family: monospace;
+				color: rgb(255, 255, 255);
+				margin: 0;
+				padding: 0;
+				overflow:hidden;
+				background-color: #000000;
+			}
+
+			#overlay {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				display: block;
+				width: 100%;
+				height: 100%;
+				z-index: 9999;
+			}
+
+			#content {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: white;
+				text-shadow: 2px 2px #000;
+			}
+		</style>
+		<title>es3n1n</title>
+	</head>
+	<body>
+		<div id="overlay">
+			<div id="content">
+				<h1>Arsenii es3n1n</h1>
+				<p>
+					<a href = 'https://github.com/es3n1n/' target="_blank">github</a>
+					|
+					<a href = 'https://pastebin.com/u/es3n1n' target="_blank">pastebin</a>
+					|
+					<a href = "mailto:me@es3n.in">e-mail</a>
+				</p>
+			</div>
+		</div>
+		<script>
+			$("#content").css("display", "none");
+			$("#content").fadeIn(2000);
+		</script>
+	</body>
+</html>
