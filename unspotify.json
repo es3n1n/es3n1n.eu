@@ -1,6 +1,6 @@
 {
-  "version": 108,
-  "changelog": "- Fixed infinity loading issues",
-  "required": false,
-  "download_url": "https://git.tcp.direct/attachments/0ca5b5c2-804e-4a5c-b68f-f44cf3f6fb06"
+  "version": 109,
+  "changelog": "- crash fixes",
+  "required": true,
+  "download_url": "https://git.tcp.direct/attachments/9ccad3c2-0c53-4512-8dd3-4e95455eee0f"
 }
