@@ -1,0 +1,81 @@
+<!-- @note: @es3n1n:
+	i'm not a frontend developer so uhh i feel sorry for everyone 
+	whos familiar with frontend stuff and looking at this piece of code
+-->
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"></script>
+		<style>
+			* {
+				font-family: monospace;
+				color: rgb(255, 255, 255);
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #000000;
+			}
+			
+			pre {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+			}
+
+			#wrapper {
+				width: 100vw;
+				min-height: 100vh;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#content {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+			}
+
+			@media screen and (max-width: 600px) {
+				* {
+					font-size: 22px;
+				}
+			}
+		</style>
+		<title>es3n1n</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<!-- s/o to @sushineko8 for these dope rabbit ears -->
+			<pre>
+⢀⡤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢠⡏⠀⠀⠳⡄⠀⠀⠀⠀⠀   ⣀⣀⣀⠀⠀⠀ 
+⢸⠃⠀⠀⠀⢿⠀⠀⠀⠀  ⣼⠃⠀⠘⢧⠀⠀
+⢸⡆⠀⠀⠀⠸⡆⠀⠀   ⣸⠃⠀⠀⠀⠈⢧⠀
+⠈⣇⠀⠀⠀   ⣧⠀   ⠀⡏⠀⢦⠀⠀⠀⠸⡆
+⠀⢹⡀⠀⠀⠀⢸⠀     ⢸⠇⠀⠘⢧⡀⠀⣸⠃
+⠀⠀⢳⠀⠀⠀⢸⡆     ⢸⠀⠀⠀⣼⠙⠋⠁⠀</pre>
+			<div id="content">
+				<h1>Arsenii es3n1n</h1>
+				<p>
+					<a href = 'https://github.com/es3n1n/' target="_blank">gh</a>
+					|
+					<a href = 'https://pastebin.com/u/es3n1n' target="_blank">bin</a>
+					|
+					<a href = "mailto:me@es3n.in" target="_blank">mail</a>
+					|
+					<a href = "https://twitter.com/es3n1n" target="_blank">twi</a>
+					|
+					<a onclick = "prompt('copy', 'not_es3n1n');" href = "#">ds</a>
+				</p>
+			</div>
+		</div>
+		<script>
+			$("#wrapper").css("display", "none");
+			$("#wrapper").fadeIn(2000);
+		</script>
+	</body>
+</html>
